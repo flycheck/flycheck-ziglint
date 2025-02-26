@@ -6,7 +6,7 @@
 ;; Maintainer: Shen, Jen-Chieh <jcs090218@gmail.com>
 ;; URL: https://github.com/flycheck/flycheck-ziglint
 ;; Version: 0.1.0
-;; Package-Requires: ((emacs "26.1") (flycheck "0.22") (zig-mode "0.0.8"))
+;; Package-Requires: ((emacs "27.1") (flycheck "0.22") (zig-mode "0.0.8"))
 ;; Keywords: tools
 
 ;; This file is not part of GNU Emacs.
