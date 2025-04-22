@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "flycheck-ziglint"
          "0.1.0"
          "Flycheck for ziglint")
