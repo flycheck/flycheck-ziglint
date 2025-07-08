@@ -34,7 +34,7 @@
 (require 'flycheck)
 
 (flycheck-define-checker ziglint
-  "Dart static analyzer using ziglint."
+  "Zig static analyzer using ziglint."
   :command ("ziglint")
   :error-patterns
   ((info line-start (file-name) ":" line ":" column ": " (message) line-end))
@@ -42,7 +42,7 @@
 
 ;;;###autoload
 (defun flycheck-ziglint-setup ()
-  "Setup flycheck-package."
+  "Setup flycheck package."
   (interactive)
   (add-to-list 'flycheck-checkers 'ziglint))
 
