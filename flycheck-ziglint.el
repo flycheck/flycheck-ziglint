@@ -35,7 +35,7 @@
 
 (flycheck-define-checker ziglint
   "Zig static analyzer using ziglint."
-  :command ("ziglint")
+  :command ("zlint")
   :error-patterns
   ((info line-start (file-name) ":" line ":" column ": " (message) line-end))
   :modes (zig-mode))
